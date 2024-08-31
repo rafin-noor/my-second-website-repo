@@ -1,0 +1,315 @@
+.header-container{
+    width: 1560px;
+    height: 907px;
+}
+
+/* nav section starts */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1560px;
+    width: 100%;
+    height: 65px;
+    gap: 15px;
+    margin-top: 20px;
+} 
+
+.logo-section img{
+    width: 94px;
+    height: 56px;
+}
+
+.details-section{
+    display: flex;
+    gap: 30px;
+    padding: 20px 15px;
+
+}
+
+.detail {
+    font-weight: 600;
+    font-size: 18px;
+  
+}
+
+.search-section{
+    width: 393px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 0px #00000026;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-name_icon{
+    display: flex;
+    gap: 20px;
+}
+
+.search_name{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.search-icon{
+    width: 25px;
+    height: 26px;
+}
+
+.shopping_icon img{
+    width: 28px;
+    height: 29px;
+}
+/* nav section ends */
+
+/* Hero Section Starts */
+.hero-section {
+    margin-top: 40px;
+}
+
+.bike_delivery{
+    width: 270px;
+    height: 63px;
+    border-radius: 35px;
+    background-color: var(--design-color);
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+
+.bike_delivery_title h1{
+    font-weight: 600;
+    font-size: 18px;
+    color: var( --primary-color);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.bike_delivery_image img{
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    padding: 5px 5px;
+}
+
+.hero_title{
+    margin-top: 20px;
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero_desc{
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main_hero_btn{
+    display: flex;
+    margin-top: 40px;
+}
+
+
+.order_now button{
+    width: 248px;
+    height: 86px;
+    padding: 33px 67px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.order-now {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--background-color);
+}
+
+.main_play_btn{
+    display: flex;
+    gap: 30px;
+    padding: 33px 67px;
+}
+
+.play_btn button{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 25px 0px #83A5FF40;
+    border: none;
+    padding-left: 6px;
+}
+
+.play-btn-icon{
+    width: 49px;
+    height: 49px;
+    color: var(--primary-color);
+}
+
+.order_process h4{
+    width: 192px;
+    height: 32px;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 33px;
+}
+
+
+.burger-image{
+    width: 278px;
+    height: 254px;
+    top: 161px;
+    left:1194px;
+    position: absolute;
+    z-index: 5;
+}
+
+.food-combo-image{
+    width: 232px;
+    height: 190px;
+    top: 193px;
+    left: 1495px;
+    position: absolute;
+    z-index: 5;
+}
+
+.pizza-image{
+    width: 226px;
+    height: 159px;
+    top: 593px;
+    left: 1220px;
+    position: absolute;
+    z-index: 5;
+}
+
+.cake-image{
+    width: 220px;
+    height: 194px;
+    top: 581px;
+    left: 1501px;
+    position: absolute;
+    z-index: 5;
+}
+
+.about-burger-desc{
+    width: 258px;
+    height: 275px;
+    top: 264px;
+    left: 1204px;
+    border-radius: 30px;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 31px 0px #0000000D;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.about-combo-desc{
+    width: 258px;
+    height: 275px;
+    top: 264px;
+    left: 1482px;
+    border-radius: 30px;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 31px 0px #0000000D;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.about-pizza-desc{
+    width: 258px;
+    height: 275px;
+    top: 639px;
+    left: 1204px;
+    border-radius: 30px;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 31px 0px #0000000D;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.about-cake-desc{
+    width: 258px;
+    height: 275px;
+    top: 639px;
+    left: 1482px;
+    border-radius: 30px;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 31px 0px #0000000D;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.item{
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 130px ;
+}
+
+.sauce{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+/* Hero Section Ends */
+  
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    .header-container{
+        width: 100%;
+        height: auto;
+        padding: 10px 15px;
+    }
+ 
+    .nav-section{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+    .details-section {
+        gap: 10px;
+        padding: 10px 0px;
+        justify-content: center;
+    }
+    
+    .search-section{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .hero_title{
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    .main_hero_btn {
+       flex-direction: column;
+       width: 100%;
+       gap: 10px;
+    }
+
+    .order-now button{
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+
